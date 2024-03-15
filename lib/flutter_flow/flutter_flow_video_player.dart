@@ -141,6 +141,16 @@ class _FlutterFlowVideoPlayerState extends State<FlutterFlowVideoPlayer>
       autoPlay: widget.autoPlay,
       looping: widget.looping,
       showControls: widget.showControls,
+      materialProgressColors: ChewieProgressColors(
+        backgroundColor: Color(0xffF8F6F4),
+        handleColor: Color(0xffEAFE6A),
+        playedColor: Color(0xffEAFE6A),
+      ),
+      cupertinoProgressColors: ChewieProgressColors(
+          backgroundColor: Color(0xffF8F6F4),
+        handleColor: Color(0xffEAFE6A),
+        playedColor: Color(0xffEAFE6A),
+      ),
       allowFullScreen: widget.allowFullScreen,
       allowPlaybackSpeedChanging: widget.allowPlaybackSpeedMenu,
     );
